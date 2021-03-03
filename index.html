@@ -20,5 +20,9 @@
 <script src="https://bedrock.brettonw.com/dist/latest/bedrock.js"></script>
 <script src="js/workflow-svg.js"></script>
 <script>
-
+    // load the workflow database
+    let now = new Date ().getTime ();
+    Bedrock.Http.get ("workflow.json?" + now, function (records) {
+        console.log ("Database loaded.");
+    });
 </script>

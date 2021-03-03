@@ -13,7 +13,8 @@ body {
 #target-container {
     width: 100%;
     background-color: white;
-    height: 90%;
+    /* height of h1 + footer is about 73px */
+    height: calc(100% - 75px);
     border-color: #80cccc;
     border-width: 1px;
     border-style: solid;
