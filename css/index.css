@@ -20,14 +20,10 @@ body {
 }
 
 .footer {
-    display: grid;
     width: 100%;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-column-gap: 0;
-    justify-items: center;
-    list-style: none;
     padding: 0;
-    margin: 0;
+    margin: 3px 0;
+    font-size: 12px;
 }
 
 .bedrock-footer {
@@ -42,12 +38,10 @@ body {
     color: #509999;
     font-weight: bold;
     text-decoration:none;
-    font-size:12px;
 }
 
 .footer-link {
     color: #509999;
     text-decoration:none;
-    font-size:12px;
     float:right;
 }
