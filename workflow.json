@@ -1,0 +1,8 @@
+[
+  { "name": "A", "connections": [ { "priority": 0.75, "to": "B" }, { "priority": 0.25, "to": "Q" } ] },
+  { "name": "B", "connections": [ { "to": "C" } ] },
+  { "name": "C", "connections": [ { "priority": 0.75, "to": "D" }, { "priority": 0.25, "to": "E" } ] },
+  { "name": "D", "connections": [ { "to": "E" } ] },
+  { "name": "Q", "connections": [ { "to": "E" } ] },
+  { "name": "E" }
+]
