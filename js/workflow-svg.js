@@ -28,6 +28,19 @@ Workflow.Field = function () {
     let _ = Object.create (null);
 
     _.init = function (parameters) {
+        // assuming 'parameters' is an array of nodes that describes a workflow network, break out
+        // all the nodes and wires
+        this.nodes = Object.create(null);
+        this.wires = Object.create(null);
+        for (let parameter of parameters) {
+            let node = Workflow.Node.new (parameter);
+            nodes[node.name] = node;
+
+            // extract the wires
+        }
+
+        // create an execution order
+
         return this;
     };
 
